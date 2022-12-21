@@ -60,7 +60,7 @@ const handleSubmit = e => {
       <input className="btn" type="submit" value="Add task" />
     </form>
     <>
-    <h2>Tasks on your list:</h2>
+    <h2>Tasks on your list</h2>
     
       {tasks.map((task, index) => (
         <Task
